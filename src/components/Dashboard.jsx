@@ -29,7 +29,7 @@ const Dashboard = () => {
                       <>
                         <div className="image">
                           <img
-                            src="src/images/QuickSell.png"
+                            src="src/images/user.png"
                             
                           />
                         </div>
