@@ -12,7 +12,7 @@ const Card = ({ id, title, tags, status }) => {
 
         <div className="image">
           <img
-            src="src/images/QuickSell.png"
+            src="src/images/user.png"
             
           />
 
