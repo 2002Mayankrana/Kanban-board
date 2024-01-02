@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  background-color: whitesmoke;
+}
