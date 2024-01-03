@@ -5,7 +5,7 @@ export const fetchData = () => async (dispatch) => {
     dispatch({ type: "dataRequest" });
 
     const { data } = await axios.get(
-      "https://api.quicksell.co/v1/internal/frontend-assignment/"
+      "https://api.quicksell.co/v1/internal/frontend-assignment"
     );
 
     dispatch({ type: "dataSuccess", payload: data });
