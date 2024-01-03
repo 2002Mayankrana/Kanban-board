@@ -28,10 +28,7 @@ const Dashboard = () => {
                     ) : (
                       <>
                         <div className="image">
-                          <img
-                            src="src/images/user.png"
-                            
-                          />
+                          <p>🧑</p>
                         </div>
                       </>
                     )}
