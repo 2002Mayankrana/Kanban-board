@@ -19,6 +19,7 @@ const Dashboard = () => {
                 style={{ backgroundColor: "whitesmoke" }}
               >
                 <div className="cardHeading1">
+                  <p>⚠️</p>
                   <div
                     className="sideView1"
                     style={{ display: "flex", alignItems: "center" }}
