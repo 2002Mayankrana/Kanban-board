@@ -31,23 +31,21 @@ export const dataSelect = (group, tickets, order) => async (dispatch) => {
     }
 
     if (group === "status") {
-      tickets.forEach((element) => {
-        set.add(element.status);
-      });
-
-      array = [...set];
-
-      array.forEach((element, index) => {
-        let array = tickets.filter((filterElement) => {
-          return element === filterElement.status;
+        tickets.forEach((element) => {
+          set.add(element.status);
         });
-        dataSelected.push({
-          [index]: {
-            title: element,
-            value: array,
-          },
+        array = [...set];
+        array.forEach((element, index) => {
+          let array = tickets.filter((filterElement) => {
+            return element === filterElement.status;
+          });
+          dataSelected.push({
+            [index]: {
+              title: element,
+              value: array,
+            },
+          });
         });
-      });
     } else if (group === "user") {
       user = true;
       tickets?.users?.forEach((element, index) => {
