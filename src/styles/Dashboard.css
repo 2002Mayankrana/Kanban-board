@@ -1,6 +1,4 @@
-*{
-    background-color: whitesmoke;
-}
+
 .container {
     width: 100vw;
     display: flex;
@@ -19,7 +17,7 @@
     flex-direction: column;
     gap: 5px;
     width: 300px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .cardHeading1 {
