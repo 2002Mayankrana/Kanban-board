@@ -11,7 +11,7 @@ const Card = ({ id, title, tags, status }) => {
         </span>
 
         <div className="image">
-          <p>👩‍💻</p>
+          <img>👩‍💻</img>
 
           <div className="status"></div>
         </div>
