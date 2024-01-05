@@ -39,8 +39,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    border-radius: 2px;
+    
 }
 
 .select {
@@ -49,4 +48,8 @@
     border: 1px solid silver;
     border-radius: 4px;
     background-color: white;
+}
+#group {
+    background-color: white;
+    border-radius: 2px;
 }
