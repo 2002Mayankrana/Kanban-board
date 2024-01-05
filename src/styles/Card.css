@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 10px;
     border: 1px solid silver;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
 }
@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px;
+    background-color: whitesmoke;
 }
 
 .image {
