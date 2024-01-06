@@ -11,7 +11,7 @@ const Card = ({ id, title, tags, status }) => {
         </span>
 
         
-          <p style={{ position: "relative",height: "30px",width: "30px"}}>👨🏻‍💼</p>
+          <p>👨🏻‍💼</p>
 
           <div className="status"></div>
         </div>
