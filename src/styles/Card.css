@@ -1,4 +1,7 @@
-
+element.style {
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
 .container {
     width: 100%;
     display: flex;
