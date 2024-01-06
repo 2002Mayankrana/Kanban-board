@@ -10,8 +10,8 @@ const Card = ({ id, title, tags, status }) => {
           {id}
         </span>
 
-        <div className="image">
-          <p>👨🏻‍💼</p>
+        
+          <p style={{ position: "relative",height: "30px",width: "30px"}}>👨🏻‍💼</p>
 
           <div className="status"></div>
         </div>
