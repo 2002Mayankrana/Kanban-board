@@ -21,13 +21,13 @@ const Dashboard = () => {
                 <div className="cardHeading1">
                   <div
                     className="sideView1"
-                    style={{ display: "flex", alignItems: "center",backgroundColor: "whitesmoke"}}
+                    style={{ display: "flex", alignItems: "center"}}
                   >
                     {!user ? (
                       <BsReception4 />
                     ) : (
                       <>
-                        <div className="image" style={{backgroundColor: "whitesmoke"}}>
+                        <div className="image">
                           <p>🧑</p>
                         </div>
                       </>
@@ -38,7 +38,7 @@ const Dashboard = () => {
                   </div>
                   <div className="sideView2">
                     <BsPlusLg />
-                    <span style={{ letterSpacing: "2px", backgroundColor: "whitesmoke"}}>...</span>
+                    <span style={{ letterSpacing: "2px"}}>...</span>
                   </div>
                 </div>
                 <div className="selectList">
