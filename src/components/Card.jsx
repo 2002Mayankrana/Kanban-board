@@ -5,7 +5,7 @@ import "../styles/Card.css";
 const Card = ({ id, title, tags, status }) => {
   return (
     <div className="container" style={{ backgroundColor: "white"}}>
-      <div className="cardHeading2" style={{ justifyContent: "space-between", backgroundColor: "white"}}>
+      <div className="cardHeading2" style={{ justifyContent: "space-between"}}>
         <span style={{ textTransform: "uppercase", color: "darkgrey" }}>
           {id}
         </span>
