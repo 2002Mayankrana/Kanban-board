@@ -9,8 +9,7 @@ const Card = ({ id, title, tags, status }) => {
         <span style={{ textTransform: "uppercase", color: "darkgrey" }}>
           {id}
         </span>
-
-        
+      
           <p>👨🏻‍💼</p>
 
           <div className="status"></div>
