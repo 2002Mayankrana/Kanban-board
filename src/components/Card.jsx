@@ -5,11 +5,12 @@ import "../styles/Card.css";
 const Card = ({ id, title, tags, status }) => {
   return (
     <div className="container">
-      <div className="cardHeading2" style={{ justifyContent: "space-between"}}>
+      <div className="cardHeading2" style={{ justifyContent: "space-between" }}>
         <span style={{ textTransform: "uppercase", color: "darkgrey" }}>
           {id}
         </span>
-      
+
+        <div className="image">
           <p>👨🏻‍💼</p>
 
           <div className="status"></div>
