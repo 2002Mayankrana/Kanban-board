@@ -1,4 +1,6 @@
-
+.container {
+    background-color: whitesmoke;
+}
 .container {
     width: 100vw;
     display: flex;
